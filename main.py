@@ -13,8 +13,8 @@ from telethon.tl.types import InputMessagesFilterEmpty
 from upload_report import upload_report, upload_individual_invite_count
 
 
-api_id = "4525415"   # enter your APP ID here
-api_hash = "7e4af0617569a321650bdfaa3ed5244f"  # enter your APP HASH here
+api_id = "[your app id]"   # enter your APP ID here
+api_hash = "[your app hash]"  # enter your APP HASH here
 
 client = TelegramClient('xxx', api_id, api_hash).start()
 
